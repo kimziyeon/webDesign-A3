@@ -68,25 +68,30 @@ header>a {
     width: 150px;
 }
 
-.menu>ul>li>a {
-    display: block;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 10px 0;
-}
-
-.menu>ul>li>a:hover {
+.menu>ul>li.on {
     background-color: skyblue;
 }
 
 
+.menu>ul>li>a {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 0;
+}
+
+.menu>ul>li:hover {
+    background-color: skyblue;
+}
+
 
 .sub {
-    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    display: none
 }
 
 .sub li {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .sub li:hover {
