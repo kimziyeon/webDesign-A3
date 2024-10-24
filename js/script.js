@@ -28,7 +28,7 @@ $(function () {
 
         var i = $(this).index();
         // console.log('index', i);
-        $('.sub').slideUp();
+        $('.sub').hide();
         $('.sub').eq(i).stop().slideDown();
 
         $('nav>ul>li').removeClass('on');
